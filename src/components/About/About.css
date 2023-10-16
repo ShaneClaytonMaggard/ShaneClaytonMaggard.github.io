@@ -1,0 +1,43 @@
+#m{
+    z-index: 5;
+    text-align: center;
+    height: auto;
+    font-size: 2vw;
+    padding: 0%;
+    margin: 0%;
+}
+#hi{
+  transition-delay: 0.1s;
+  margin-bottom: 20vw;
+  margin-top: 0;
+}
+
+#student{
+  transition-delay: 0.1s;
+}
+#img{
+  margin-bottom: 20vw;
+}
+#passionate{
+  transition-delay: 0.1s;
+  margin-bottom: 0vw;
+  margin-top: 20vw;
+}
+#tech{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2s;
+  filter: brightness(0%)
+ }
+ .show{
+  opacity: 1;
+  filter: blur(0);
+  filter: brightness(100%);
+  transform: translateX(0);
+ }

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body{
+    background-color: #131316;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 55vh;
+    font-size: x-large;
+}
+.hidden{
+ opacity: 0;
+ filter: blur(5px);
+ transform: translateX(-100%);
+ transition: all 2s;
+}
+.show{
+ opacity: 1;
+ filter: blur(0);
+ transform: translateX(0);
+}
+@media (prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+}
+.certs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cert{
+    margin: 2%;
+    padding: 0;
+    border: none;
+    width: 30%;
+}
+ 
+
+.cert:hover{
+    scale: 1.15;
+    z-index: 2;
+}
+img{
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+.cert:nth-child(2){
+    transition-delay: 0.2s;
+}
+.cert:nth-child(3){
+    transition-delay: 0.5s;
+}
+.cert:nth-child(4){
+    transition-delay: 1s;
+}
+.Emoji{
+   font-size: 25vw;
+   margin: 0;
+   padding: 0;
+   border: solid 0.05em gold;
+   border-radius: 2.5%;
+}
+#gpr{
+    font-size: 1.3vw;
+}
