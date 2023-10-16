@@ -1,1 +1,0 @@
-ShaneClaytonMaggard.github.io
